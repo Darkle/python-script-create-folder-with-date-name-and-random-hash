@@ -1,0 +1,37 @@
+# note: this config is specifically for coconut output, so dont use it for your own python
+strictness: veryhigh
+pep8:
+  disable:
+    - E301
+    - E302
+    - E303
+    - E401
+    - E402
+    - E501
+    - E704
+    - N801
+  options:
+    max-line-length: 79
+pylint:
+  disable:
+    - multiple-imports
+    - invalid-name
+    - line-too-long
+    - multiple-statements
+    - too-many-boolean-expressions
+    - used-before-assignment
+    - too-few-public-methods
+    - wrong-import-position
+    - protected-access
+    - redefined-builtin
+    - stop-iteration-return
+    - broad-except
+    - unused-import
+# mccabe:
+
+# dodgy:
+
+pyflakes:
+  disable:
+    - F401
+# pydocstyle:
