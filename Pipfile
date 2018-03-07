@@ -7,8 +7,8 @@ name = "pypi"
 
 [packages]
 
-coconut = {extras = ["watch", "jobs", "mypy", "cpyparsing"]}
-prospector = "*"
+coconut = {extras = ["mypy", "cpyparsing", "watch", "jobs"]}
+prospector = {extras = ["with-vulture", "with-pyroma"]}
 invoke = "*"
 watchgod = "*"
 

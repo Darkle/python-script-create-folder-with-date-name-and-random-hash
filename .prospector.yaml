@@ -27,6 +27,8 @@ pylint:
     - stop-iteration-return
     - broad-except
     - unused-import
+    - wildcard-import
+    - unused-wildcard-import
 # mccabe:
 
 # dodgy:
@@ -34,4 +36,22 @@ pylint:
 pyflakes:
   disable:
     - F401
+    - F403
 # pydocstyle:
+
+pep257:
+  disable:
+    - D100
+    - D101
+    - D102
+    - D103
+    - D105
+    - D107
+    - D203
+    - D204
+    - D205
+    - D209
+    - D213
+    - D400
+    - D401
+    - D402
